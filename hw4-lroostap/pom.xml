@@ -75,6 +75,17 @@
 			<type>jar</type>
 			<scope>compile</scope>
 		</dependency>
+		<dependency>
+			<groupId>edu.stanford.nlp</groupId>
+			<artifactId>stanford-corenlp</artifactId>
+			<version>3.2.0</version>
+		</dependency>
+		<dependency>
+		    <groupId>edu.stanford.nlp</groupId>
+		    <artifactId>stanford-corenlp</artifactId>
+		    <version>3.2.0</version>
+		    <classifier>models</classifier>
+		</dependency>
 	</dependencies>
 
 	<build>
@@ -105,4 +116,8 @@
 			</plugin>
 		</plugins>
 	</build>
+	<scm>
+		<connection>scm:git:git@github.com:roostapour/hw4-lroostap.git</connection>
+		<developerConnection>scm:git:git@github.com:roostapour/hw4-lroostap.git</developerConnection>
+	</scm>
 </project>
